@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "desktop-screenshot": "^0.1.1"
+  },
+  "name": "my-remote-control",
+  "version": "1.0.0",
+  "description": "自用简陋远程控制小程序",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "author": "dsy4567",
+  "license": "MIT"
+}
