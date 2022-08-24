@@ -45,7 +45,7 @@ C:\Users\dsy4567\my-remote-control> npm start
     "runCommand": "dir .", // 执行 cmd 命令
     "shutDown": "false", // 关闭电脑(在下一次启动时, 如果启用了自动重启登录, 则将自动登录并锁定上次交互用户)
     "reboot": "false", // 重启电脑(在下一次启动时, 如果启用了自动重启登录, 则将自动登录并锁定上次交互用户)
-    "cancelShutDown": "true", //取消关机或重启
+    "cancelShutDown": "true", // 取消关机或重启
     "copyFile": {
         // 复制文件
         "from": "c:\\users\\dsy4567\\desktop\\yellow-video.mp4", // 将文件...
