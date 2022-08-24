@@ -37,7 +37,7 @@ C:\Users\dsy4567\my-remote-control> npm start
 
 在 B 电脑(公司里的)上修改 `C:\Users\dsy45\OneDrive\myremote\actions.json`, 然后等待一会, 再打开 `logs.txt` 查看效果
 
-```json
+```jsonc
 {
     "doThings": "false", // 修改完下面的东西后, 将它改成 "true" (必须是字符串类型, 下同) 并保存
     "screenshot": "true", // 截屏(图片保存在 screenshots 文件夹里)
