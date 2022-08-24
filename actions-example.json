@@ -1,0 +1,8 @@
+{
+    "doThings": "false",
+    "screenshot": "true",
+    "runCommand": "echo hello world",
+    "shutDown": "true",
+    "copyFile":"",
+    "exit": "false"
+}
