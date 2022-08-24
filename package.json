@@ -7,7 +7,7 @@
   },
   "name": "my-remote-control",
   "version": "1.0.0",
-  "description": "自用简陋远程控制小程序",
+  "description": "借助 OneDrive 实现的自用简陋远程控制",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js"
