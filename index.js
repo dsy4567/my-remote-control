@@ -39,6 +39,8 @@ const DefaultActions = {
     exit: false, // 退出远程控制
 };
 
+/** @type {NodeRequire[]} */
+var requires = []; // 在 eval 代码时可能会有用
 /** @type {Actions} */
 var actions = DefaultActions;
 /** @type {NodeJS.Timeout} */
