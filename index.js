@@ -9,7 +9,12 @@ const robot = require("robotjs");
 
 const DataDir = "../OneDrive/myremote/"; // 数据存储位置
 const AllowEval = true; // 是否允许执行 JavaScript 字符串
-const RequireRobotJS = true; // 是否导入 RobotJS 模块, 如果您因为没有 windows-build-tools 而导致安装依赖出错且想放弃解决问题, 可以考虑修改它, 然后修改 package.json 并直接删除 index.js 的第 8 行
+/*
+  是否导入 RobotJS 模块, 如果您因为没有 windows-build-tools
+  而导致安装依赖出错且想放弃解决问题, 可以考虑修改它,
+  然后修改 package.json 并直接删除 index.js 的第 8 行
+ */
+const RequireRobotJS = true;
 
 /** @type {Actions} */
 const DefaultActions = {
@@ -59,10 +64,7 @@ function clearActions() {
         spaces: 4,
     });
 }
-/**
- * @param {string} log
- * @param {"log" | "error" | "warn"} type
- */
+/** @param {string} log @param {"log" | "error" | "warn"} type */
 function writeLog(log, type = "log") {
     try {
         if (!log) return;
@@ -153,10 +155,8 @@ fs.watch(DataDir + "actions.json", () => {
                                         "-"
                                     ) +
                                 ".png",
-                            function (
-                                /** @type {string} */ error,
-                                /** @type {Boolean} */ complete
-                            ) {
+                            /** @param {string} error @param {Boolean} complete */
+                            (error, complete) => {
                                 if (error)
                                     writeLog("截屏失败 " + error, "error");
                                 else writeLog("截屏成功 " + complete);

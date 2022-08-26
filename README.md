@@ -20,7 +20,12 @@ C:\Users\dsy4567\my-remote-control> npm install
 // line 10
 const Data0Dir = "../OneDrive/myremote/"; // 数据存储位置
 const AllowEval = true; // 是否允许执行 JavaScript 字符串
-const RequireRobotJS = true; // 是否导入 RobotJS 模块, 如果您因为没有 windows-build-tools 而导致安装依赖出错且想放弃解决问题, 可以考虑修改它, 然后修改 package.json 并直接删除 index.js 的第 8 行
+/*
+  是否导入 RobotJS 模块, 如果您因为没有 windows-build-tools
+  而导致安装依赖出错且想放弃解决问题, 可以考虑修改它,
+  然后修改 package.json 并直接删除 index.js 的第 8 行
+ */
+const RequireRobotJS = true;
 ```
 
 ## 3. 设置 OneDrive
