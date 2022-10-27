@@ -88,3 +88,7 @@ OneDrive 会始终让里面的每一个文件在各个设备上保持一致, 这
 
 -   它不支持操作锁屏界面, 因此如果您需要执行控制鼠标键盘等操作, 请让电脑始终保持解锁状态(建议设置自动登录, 并在锁屏后重启电脑), 并注意**不要让不怀好意的人碰 A 电脑(家里的)**
 -   `actions.json` 里不能有注释
+
+# 许可证
+
+MIT with The Motherfucking Anti Indulgence License
