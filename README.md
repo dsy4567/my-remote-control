@@ -91,4 +91,4 @@ OneDrive 会始终让里面的每一个文件在各个设备上保持一致, 这
 
 # 许可证
 
-MIT with The Motherfucking Anti Indulgence License
+The Motherfucking Anti Indulgence License
